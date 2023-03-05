@@ -1,1 +1,74 @@
-# blog-site
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+
+/* Typography */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Button */
+.btn {
+    background-color: none;
+    padding: 10px 25px 10px 25px;
+    border-radius: 5px;
+}
+
+/* Carousel */
+.btn-outline-carousel {
+    color: #fff!important;
+    border: 1px solid #fff;
+}
+
+.btn-outline-carousel:hover {
+    color: #222;
+    background-color: #CCCCCC;
+    border-color: #fff;
+    border-style: none;
+}
+
+.carousel-text {
+    font-weight: 300;
+}
+
+.carousel-caption {
+    margin: 50px 0 50px 0;
+}
+
+/* Our Services */
+.card {
+    border-style: none!important;
+}
+
+.title-section {
+    color:#D21448;
+}
+
+.btn-outline-carousel-colored {
+    color:#D21448;
+    border: 1px solid #D21448;
+}
+
+.btn-outline-carousel-colored:hover {
+    color: #222;
+    background-color: #CCCCCC;
+    border-style: none;
+}
+
+.projects {
+    margin-top: 8rem;
+    background-color: #F7D7E0;
+}
+
+.card-header {
+    border-style: none;
+}
+
+.card > .card-body {
+    background-color: transparent;
+}
